@@ -3,7 +3,7 @@ import urllib.request, json
 
 def show_trip():
     endpoint = 'https://maps.googleapis.com/maps/api/directions/json?' #This is where the request goes
-    api_key = 'AIzaSyBNq9gXinD2pLsoUmXVo5uWLllGj-BdvYc'
+    #api_key = 'Enter your key here'
     #Asks the user to input Where they are and where they want to go.
     origin = input('What is your location?: ').replace(' ','+')
     destination = input('Where do you wish to go?: ').replace(' ','+')
